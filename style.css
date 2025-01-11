@@ -755,6 +755,51 @@ background: linear-gradient(0deg, rgba(34,51,195,1) 0%, rgba(140,2,123,1) 100%);
 background: radial-gradient(circle, rgba(101,190,141,1) 0%, rgba(97,97,158,0.7428221288515406) 100%);
 }
 
+.awards .carousel .card{
+    background: #7a5151;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.awards .carousel .card:hover{
+    background: rgb(219, 147, 161);
+}
+.awards .carousel .card .box{
+    color: rgb(242, 93, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.awards .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.awards .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(247, 100, 129);
+    transition: all 0.3s ease;
+}
+.awards .carousel .card:hover img{
+    border-color: #badf43;
+}
+.awards{
+    background: rgb(3, 63, 69);
+background: radial-gradient(circle, rgb(15, 4, 97) 0%, rgba(10, 74, 106, 0.743) 100%);
+}
+
+.awards .title{
+    color: white;
+}
+
 .column1{
     float: left;
     margin: auto;
